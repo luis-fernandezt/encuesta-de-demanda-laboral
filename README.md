@@ -2,8 +2,6 @@
 
 Caracterización de las necesidades de capital humano de las empresas y las brechas existentes en el mercado laboral.
 
----
-
 ## Distribución de empresas por región
 
 | Región | Tamaño muestral | N° empresas | Distribución % |
@@ -26,7 +24,6 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 |   11   |       135       |     505     |      0,5       |
 | Total  |      5.965      |   91.873    |     100,0      |
 
----
 
 ## Distribución de trabajadores por región
 
