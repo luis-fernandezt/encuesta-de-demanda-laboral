@@ -1,4 +1,5 @@
-# Análisis de la Encuesta de Demanda Laboral
+# Análisis de la Encuesta de Demanda Laboral 2024
+
 Caracterización de las necesidades de capital humano de las empresas y las brechas existentes en el mercado laboral.
 
 ## Distribución de Empresas por región
@@ -74,7 +75,6 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 |      B       |       11        |     126     |      0,14      | 0,40 |
 |    Total     |      5.965      |   91.873    |     100,00     | 0,08 |
 
----
 
 ## Distribución de Empresas por Actividad Económica CIIU
 
