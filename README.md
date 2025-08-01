@@ -206,6 +206,6 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 |   Administración pública y defensa; planes de seguridad social de afiliación obligatoria   |        1        |     0      |      0,00      | NaN  |
 |                                           Total                                            |       482       |   6.336    |     100,00     | 0,24 |
 
-\colorbox{yellow}{**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**
+\colorbox{yellow}{**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**}
 
 > Version.string R version 4.3.0 (2023-04-21 ucrt)
