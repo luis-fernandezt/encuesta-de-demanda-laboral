@@ -1,4 +1,4 @@
-# Análisis de la Encuesta de Demanda Laboral 2024
+# Análisis de la Encuesta de Demanda Laboral (ENADEL 2024).
 
 Caracterización de las necesidades de capital humano de las empresas y las brechas existentes en el mercado laboral.
 
@@ -153,7 +153,7 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 
 ---
 
-## Vacantes por Actividad Económica CIIU - Los Ríos
+## Estimación de Vacantes por Actividad Económica CIIU 2024 - Los Ríos
 
 |                                        CIIU Seccion                                        | Tamaño muestral | Estimación | Distribución % |  CV  |
 |:------------------------------------------------------------------------------------------:|:---------------:|:----------:|:--------------:|:----:|
@@ -179,31 +179,6 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 
 **¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**
 
-## Estimación de Vacantes por Actividad Económica CIIU 2024 - Los Ríos
-
-|                                        CIIU Seccion                                        | Tamaño muestral | Estimación | Distribución % |  CV  |
-|:------------------------------------------------------------------------------------------:|:---------------:|:----------:|:--------------:|:----:|
-|                    Actividades de servicios administrativos y de apoyo                     |       19        |    453     |     24,90      | 0,98 |
-|                        Agricultura, ganadería, silvicultura y pesca                        |       35        |    452     |     24,85      | 0,67 |
-|                                        Construcción                                        |       26        |    266     |     14,62      | 0,67 |
-|                                Transporte y almacenamiento                                 |       39        |    217     |     11,93      | 0,69 |
-|                    Actividades de alojamiento y de servicio de comidas                     |       59        |    142     |      7,81      | 0,44 |
-|  Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas  |       70        |    105     |      5,77      | 0,36 |
-|                  Actividades artísticas, de entretenimiento y recreativas                  |        7        |     83     |      4,56      | 0,96 |
-|                                 Industrias manufactureras                                  |       63        |     64     |      3,52      | 0,39 |
-|                Suministro de electricidad, gas, vapor y aire acondicionado                 |        3        |     15     |      0,82      | 1,00 |
-|                     Actividades profesionales, científicas y técnicas                      |       16        |     8      |      0,44      | 0,70 |
-|             Actividades de atención de la salud humana y de asistencia social              |        1        |     6      |      0,33      | 1,00 |
-|   Administración pública y defensa; planes de seguridad social de afiliación obligatoria   |        1        |     6      |      0,33      | 1,00 |
-|                                Información y comunicaciones                                |        1        |     2      |      0,11      | 1,00 |
-|                            Actividades financieras y de seguros                            |        1        |     0      |      0,00      | NaN  |
-|                                 Actividades inmobiliarias                                  |        2        |     0      |      0,00      | NaN  |
-|                              Explotación de minas y canteras                               |        1        |     0      |      0,00      | NaN  |
-|                               Otras actividades de servicios                               |        1        |     0      |      0,00      | NaN  |
-| Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación |        1        |     0      |      0,00      | NaN  |
-|                                           Total                                            |       346       |   1.819    |     100,00     | 0,33 |
-
-
 ## Estimación de Vacantes por Actividad Económica CIIU 2024 - Los Lagos
 
 |                                        CIIU Seccion                                        | Tamaño muestral | Estimación | Distribución % |  CV  |
@@ -228,5 +203,6 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 |   Administración pública y defensa; planes de seguridad social de afiliación obligatoria   |        1        |     0      |      0,00      | NaN  |
 |                                           Total                                            |       482       |   6.336    |     100,00     | 0,24 |
 
+**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**
 
 > Version.string R version 4.3.0 (2023-04-21 ucrt)
