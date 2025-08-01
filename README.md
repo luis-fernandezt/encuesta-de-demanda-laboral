@@ -125,6 +125,7 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 |                                Información y comunicaciones                                |        1        |      2      |      0,12      | 1,00 |
 |                                           Total                                            |       346       |    1.654    |     100,00     | 0,11 |
 
+\colorbox{yellow}{**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**}
 
 ## Distribución de trabajadores región de Los Ríos
 
@@ -150,6 +151,8 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 | Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación |        1        |       27        |      0,03      | 1,00 |
 |   Administración pública y defensa; planes de seguridad social de afiliación obligatoria   |        1        |       18        |      0,02      | 1,00 |
 |                                           Total                                            |       346       |     97.819      |     100,00     | 0,42 |
+
+\colorbox{yellow}{**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**}
 
 ---
 
@@ -177,7 +180,7 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 | Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación |        1        |     0      |      0,00      | NaN  |
 |                                           Total                                            |       346       |   1.819    |     100,00     | 0,33 |
 
-**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**
+\colorbox{yellow}{**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**}
 
 ## Estimación de Vacantes por Actividad Económica CIIU 2024 - Los Lagos
 
@@ -203,6 +206,6 @@ Caracterización de las necesidades de capital humano de las empresas y las brec
 |   Administración pública y defensa; planes de seguridad social de afiliación obligatoria   |        1        |     0      |      0,00      | NaN  |
 |                                           Total                                            |       482       |   6.336    |     100,00     | 0,24 |
 
-**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**
+\colorbox{yellow}{**¡Preacución! Coeficientes de Variación muy altos, resultados son solo referenciales.**
 
 > Version.string R version 4.3.0 (2023-04-21 ucrt)
