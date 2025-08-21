@@ -1,0 +1,20 @@
+CIIU Seccion,Tamaño muestral,N° trabajadores,Distribución %,CV
+Industrias manufactureras,63,46685,47.725901920894714,0.8227536281346213
+"Agricultura, ganadería, silvicultura y pesca",35,23856,24.387900101207332,0.5882915226517983
+Construcción,26,9463,9.673989715699403,0.3119998817354543
+Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas,70,4309,4.405074678743393,0.1516954101119862
+Actividades de alojamiento y de servicio de comidas,59,4273,4.36827201259469,0.15403256711983948
+Transporte y almacenamiento,39,3249,3.3214406199204656,0.2603053615373067
+Actividades de servicios administrativos y de apoyo,19,3071,3.1394718817407665,0.2850674119067985
+"Actividades profesionales, científicas y técnicas",16,1278,1.3064946482789643,0.2755597204818941
+"Actividades artísticas, de entretenimiento y recreativas",7,511,0.522393400055204,0.3581812104398836
+"Suministro de electricidad, gas, vapor y aire acondicionado",3,456,0.46616710455024074,0.6496323272935391
+Actividades inmobiliarias,2,199,0.20343696009977613,0.783549068468859
+Actividades financieras y de seguros,1,128,0.13085392408427812,1
+Información y comunicaciones,1,110,0.1124525910099265,1.0000000000000002
+Actividades de atención de la salud humana y de asistencia social,1,96,0.09814044306320857,0.9999999999999977
+Otras actividades de servicios,1,60,0.061337776914505364,0.9999999999999998
+Explotación de minas y canteras,1,30,0.030668888457252682,1.000000000000001
+"Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación",1,27,0.02760199961152741,0.9999999999999998
+Administración pública y defensa; planes de seguridad social de afiliación obligatoria,1,18,0.018401333074351607,1
+Total,346,97819,100,0.4192489633631584

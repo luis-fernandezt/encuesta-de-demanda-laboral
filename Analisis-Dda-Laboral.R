@@ -46,6 +46,7 @@ ENADEL_2024 <- mutate(ENADEL_2024,
                                                                  "R":"S" = "R-S";
                                                                  else = "Varias*"'))
 
+names(ENADEL_2024)
 # Aplicar Factor de expansion ####
 # Según el documento metodológico de ENADEL 2024, el diseño muestral es probabilístico y estratificado, con estratos definidos por las 16 regiones y 12 agrupaciones de ramas de actividad económica, pero no se menciona un nivel de conglomerado específico (clusters). Por tanto, no hay una variable conglomerado oficial en los datos.
 
@@ -93,6 +94,7 @@ knitr::kable(nro_empresas_final,
              align=rep('c', 5),
              format.args = list(decimal.mark = ',', big.mark = "."))
 
+#write_csv(nro_empresas_final, "bd/pais_empresas.csv")
 rm(total_pais, nro_empresas)
 
 #Trabajadores por región ####
@@ -124,6 +126,8 @@ knitr::kable(nro_trabajadores_final,
              digits=2,
              align=rep('c', 5),
              format.args = list(decimal.mark = ',', big.mark = "."))
+
+#write_csv(nro_trabajadores_final, "bd/pais_trabajadores.csv")
 
 rm(total_pais, nro_trabajadores)
 
@@ -157,6 +161,8 @@ knitr::kable(nro_empresas_CIIU_final,
              align=rep('c', 5),
              format.args = list(decimal.mark = ',', big.mark = "."))
 
+#write_csv(nro_empresas_CIIU_final, "bd/pais_empresas_ciuu.csv")
+
 rm(total_pais, nro_empresas_CIIU)
 
 
@@ -189,12 +195,15 @@ knitr::kable(nro_trabajadores_ciuu_final,
              align=rep('c', 5),
              format.args = list(decimal.mark = ',', big.mark = "."))
 
+#write_csv(nro_trabajadores_ciuu_final, "bd/pais_trabajadores_ciuu.csv")
+
 rm(total_pais, nro_trabajadores_ciuu)
 
-
-# Empresas Los Ríos ####
-
+# Filtro region ######
 reg_filtro <- 14
+
+# Empresas por region ####
+
 
 empr_reg1 <- svydsgn |>
   filter(region == reg_filtro) |>
@@ -226,9 +235,12 @@ knitr::kable(nro_empr_reg,
              align=rep('c', 5),
              format.args = list(decimal.mark = ',', big.mark = "."))
 
+#write_csv(nro_empr_reg, "bd/r10_empresas.csv")
+#write_csv(nro_empr_reg, "bd/r14_empresas.csv")
+
 rm(empr_reg, empr_reg1, empr_reg2, cv_temp, temp1, temp2, temp)
 
-# Trabajadores por CIIU Los Ríos ####
+# Trabajadores por region segun CIIU ####
 trab_ciuu_reg1 <-
   svydsgn |>
   filter(region == reg_filtro) |>
@@ -261,6 +273,48 @@ knitr::kable(nro_trab_ciuu_reg,
              digits=2,
              align=rep('c', 5),
              format.args = list(decimal.mark = ',', big.mark = "."))
+
+#write_csv(nro_trab_ciuu_reg, "bd/r10_trabajadores_ciuu.csv")
+#write_csv(nro_trab_ciuu_reg, "bd/r14_trabajadores_ciuu.csv")
+
+rm(trab_ciuu_reg, trab_ciuu_reg2, trab_ciuu_reg1, cv_temp )
+
+# Vacantes ####
+temp <- 
+  svydsgn |>
+  filter(region == reg_filtro) |>
+  group_by(a1_glosa_CIIU_seccion) |>
+  summarise(`Estimación` = survey_total(b7_1, vartype = "cv"),
+            `Tamaño muestral` = unweighted(n())) |>
+  mutate(`Distribución %` = `Estimación`/sum(`Estimación`) *100,
+         `CIIU Seccion` = a1_glosa_CIIU_seccion,
+         `CV` = `Estimación_cv`) |>
+  arrange(desc(`Estimación`)) |>
+  select(`CIIU Seccion`, `Tamaño muestral`, `Estimación`, `Distribución %`, `CV`)
+
+cv_temp <- (svydsgn |> 
+              filter(region == reg_filtro) |>
+              summarise(survey_total(b7_1, vartype = c("cv"),
+                                     na.rm = TRUE), n = unweighted(n())))[2]
+
+vacantes2 <- 
+  temp |>
+  summarise(`CIIU Seccion` = "Total",
+            `Tamaño muestral` = sum(`Tamaño muestral`),
+            `Estimación`= sum(`Estimación`),
+            `Distribución %` = sum(`Distribución %`),
+            `CV` = as.numeric(cv_temp))
+
+# Unir tabla principal con totales
+temp2 <- bind_rows(temp, vacantes2)
+
+knitr::kable(temp2, 
+             digits=2,
+             align=rep('c', 5),
+             format.args = list(decimal.mark = ',', big.mark = "."))
+
+#write_csv(temp2, "bd/r10_vacantes.csv")
+#write_csv(temp2, "bd/r14_vacantes.csv")
 
 rm(trab_ciuu_reg, trab_ciuu_reg2, trab_ciuu_reg1, cv_temp )
 

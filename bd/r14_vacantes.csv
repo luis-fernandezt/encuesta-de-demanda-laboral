@@ -1,0 +1,20 @@
+CIIU Seccion,Tamaño muestral,Estimación,Distribución %,CV
+Actividades de servicios administrativos y de apoyo,19,453,24.903793293018143,0.9824193236285935
+"Agricultura, ganadería, silvicultura y pesca",35,452,24.848818031885653,0.6740141637223358
+Construcción,26,266,14.62341946124244,0.6737194539653469
+Transporte y almacenamiento,39,217,11.929631665750412,0.6919128172956438
+Actividades de alojamiento y de servicio de comidas,59,142,7.806487080813635,0.4430273712133479
+Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas,70,105,5.77240241891149,0.36219286777818815
+"Actividades artísticas, de entretenimiento y recreativas",7,83,4.562946673996701,0.9645328944397809
+Industrias manufactureras,63,64,3.5184167124793846,0.3864340876248628
+"Suministro de electricidad, gas, vapor y aire acondicionado",3,15,0.8246289169873556,0.9999999999999999
+"Actividades profesionales, científicas y técnicas",16,8,0.4398020890599231,0.6966305460192358
+Actividades de atención de la salud humana y de asistencia social,1,6,0.32985156679494226,0.9999999999999977
+Administración pública y defensa; planes de seguridad social de afiliación obligatoria,1,6,0.32985156679494226,1.0000000000000002
+Información y comunicaciones,1,2,0.10995052226498077,1.0000000000000002
+Actividades financieras y de seguros,1,0,0,NA
+Actividades inmobiliarias,2,0,0,NA
+Explotación de minas y canteras,1,0,0,NA
+Otras actividades de servicios,1,0,0,NA
+"Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación",1,0,0,NA
+Total,346,1819,100,0.32859487936753473

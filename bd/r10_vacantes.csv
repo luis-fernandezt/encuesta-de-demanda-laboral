@@ -1,0 +1,20 @@
+CIIU Seccion,Tamaño muestral,Estimación,Distribución %,CV
+Industrias manufactureras,73,1692,26.704545454545453,0.43093432270446225
+Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas,60,1478,23.3270202020202,0.5234873812771726
+Actividades de servicios administrativos y de apoyo,36,874,13.79419191919192,0.39006018879965865
+Construcción,34,855,13.494318181818182,0.5330866578077722
+"Agricultura, ganadería, silvicultura y pesca",51,505,7.970328282828283,0.3378782651636387
+Transporte y almacenamiento,55,303,4.78219696969697,3.113478974534097
+Actividades de alojamiento y de servicio de comidas,60,233,3.6773989898989896,0.28467292142208206
+Información y comunicaciones,16,153,2.414772727272727,0.5477129855338341
+"Actividades profesionales, científicas y técnicas",20,91,1.4362373737373737,0.6919587468760955
+"Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación",15,78,1.231060606060606,0.6416279221889759
+"Actividades artísticas, de entretenimiento y recreativas",9,44,0.6944444444444444,0.7773296499474053
+"Suministro de electricidad, gas, vapor y aire acondicionado",1,12,0.1893939393939394,1.000000000000001
+Actividades inmobiliarias,15,10,0.15782828282828282,0.6621862019385001
+Actividades de atención de la salud humana y de asistencia social,8,4,0.06313131313131314,1.0000000000000007
+Enseñanza,5,2,0.03156565656565657,1.0000000000000007
+Otras actividades de servicios,18,2,0.03156565656565657,1.0000000000000007
+Actividades financieras y de seguros,5,0,0,NA
+Administración pública y defensa; planes de seguridad social de afiliación obligatoria,1,0,0,NA
+Total,482,6336,100,0.242170225043971
